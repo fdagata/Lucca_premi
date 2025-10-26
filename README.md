@@ -46,7 +46,21 @@
   <br>
   <br>
   <br>
- <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <script>
     // Elenco premi con link e probabilità (pesi)
     const premi = [
