@@ -33,7 +33,13 @@
   <p>Clicca il pulsante qui sotto per estrarre il tuo premio.</p>
   <div id="output"></div>
   <button id="bottone" onclick="estraiPremio()">Estrai Premio</button>
-
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ <br> 
   <script>
     // Elenco premi con link e probabilità (pesi)
     const premi = [
