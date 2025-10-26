@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
@@ -11,8 +10,8 @@
 </head>
 <body>
   <h1>🎁 Scopri il tuo premio!</h1>
-  <p>Clicca il pulsante qui sotto per estrarre il tuo premio. Ogni partecipante riceve un premio di consolazione!</p>
-  <button onclick="estraiPremio()">Estrai!</button>
+  <p>Clicca il pulsante qui sotto per estrarre il tuo premio.</p>
+   <button onclick="estraiPremio()">Estrai!</button>
   <div id="risultato"></div>
 
   <script>
