@@ -37,11 +37,11 @@
   <script>
     // Elenco premi con link e probabilità (pesi)
     const premi = [
-      { nome: "Viaggio", link: "premi/viaggio.html", peso: 1 },
-      { nome: "Cena per due", link: "premi/cena.html", peso: 3 },
-      { nome: "Buono Amazon", link: "premi/amazon.html", peso: 5 },
-      { nome: "Tazza personalizzata", link: "premi/tazza.html", peso: 10 },
-      { nome: "Nulla (ritenta!)", link: "premi/niente.html", peso: 20 }
+      { nome: "Libro RPG Studies", link: "https://drive.google.com/file/d/1Cru0krkBjbK3ZnaassQQlgXG7U7lYWG9/view?usp=sharing", peso: 1 },
+      { nome: "Un Lavoro d'Ufficio - GdR neuroscienze", link: "https://drive.google.com/file/d/15-6_lPFrHq65qMrMQctx-h1pT0uV6lvU/view?usp=sharing", peso: 3 },
+      { nome: "Bundle di Scenari per Le Avventure di Lombroso", link: "https://drive.google.com/file/d/1ZUWCLg7rYqHN3oanvd0qJlbYwC8GUHVf/view?usp=sharing", peso: 5 },
+      { nome: "Gioco di Carte sull'Open Science", link: "https://drive.google.com/file/d/11Vka_IfIriNlfbtSTuGbGXfHHAv1N4x4/view?usp=sharing", peso: 10 },
+      { nome: "Cos'è un GdR, One-scene game", link: "https://drive.google.com/file/d/1Gz_hPWnJMOXZplyc3UCT5j6tIoE-zmzf/view?usp=sharing", peso: 20 }
     ];
 
     function estraiPremio() {
