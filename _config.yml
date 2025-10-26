@@ -1,7 +1,7 @@
 title: Lucca Comics & Games 2025
-description: Clicca sul pulsante per estrarre il tuo premio.
+github:
+  is_project_page: false
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
-github:
-  is_project_page: false
+
