@@ -16,33 +16,35 @@
 
   <script>
     function estraiPremio() {
-      const r = Math.random();
-      let premio = "Premio di Consolazione";
-      let link = "https://drive.google.com/uc?id=LINK_CONSOLAZIONE";
-      let password = "2415";
+      const r = Math.random();      
 
       if (r < 0.10) {
         premio = "Premio Rarissimo";
         link = "https://drive.google.com/uc?id=LINK_RARISSIMO";
-        password = "9099";
+        
       } else if (r < 0.30) {
         premio = "Premio Raro";
         link = "https://drive.google.com/uc?id=LINK_RARO";
-        password = "7234";
+        
       } else if (r < 0.60) {
         premio = "Premio Non Comune";
         link = "https://drive.google.com/uc?id=LINK_NON_COMUNE";
-        password = "5176";
+        
       } else if (r < 1.00) {
-        premio = "Premio Comune";
+        premio = "Premio di Consolazione";
         link = "https://drive.google.com/uc?id=LINK_COMUNE";
-        password = "3982";
+        
+        premioSalvato = premio;
+        linkSalvato = link;
+
+        // Salva nel browser
+        localStorage.setItem("premioEstratto", premioSalvato);
+        localStorage.setItem("linkPremio", linkSalvato);
       }
 
       document.getElementById("risultato").innerHTML =
         `<p><strong>Hai vinto: ${premio}!</strong></p>
-         <p>Scarica il tuo premio qui: <a href="${link}" target="_blank">Scarica PDF</a></p>
-         <p><em>Password per aprirlo:</em> <strong>${password}</strong></p>`;
+         <p>Scarica il tuo premio qui: <a href="${link}" target="_blank">Scarica PDF</a></p>         
     }
   </script>
 </body>
