@@ -64,11 +64,11 @@
   <script>
     // Elenco premi con link e probabilità (pesi)
     const premi = [
-      { nome: "Libro RPG Studies", link: "https://drive.google.com/file/d/1Cru0krkBjbK3ZnaassQQlgXG7U7lYWG9/view?usp=sharing", peso: 5 },
-      { nome: "Un Lavoro d'Ufficio GdR neuroscienze", link: "https://drive.google.com/file/d/15-6_lPFrHq65qMrMQctx-h1pT0uV6lvU/view?usp=sharing", peso: 5 },
-      { nome: "Bundle di Scenari per Le Avventure di Lombroso", link: "https://drive.google.com/file/d/1ZUWCLg7rYqHN3oanvd0qJlbYwC8GUHVf/view?usp=sharing", peso: 10 },
-      { nome: "Gioco di Carte sull'Open Science", link: "https://drive.google.com/file/d/11Vka_IfIriNlfbtSTuGbGXfHHAv1N4x4/view?usp=sharing", peso: 30 },
-      { nome: "Cos'è un GdR, One-scene game", link: "https://drive.google.com/file/d/1Gz_hPWnJMOXZplyc3UCT5j6tIoE-zmzf/view?usp=sharing", peso: 50 }
+      { nome: "Libro RPG Studies", link: "https://drive.google.com/file/d/1Cru0krkBjbK3ZnaassQQlgXG7U7lYWG9/view?usp=sharing", peso: 20 },
+      { nome: "Un Lavoro d'Ufficio GdR neuroscienze", link: "https://drive.google.com/file/d/15-6_lPFrHq65qMrMQctx-h1pT0uV6lvU/view?usp=sharing", peso: 20 },
+      { nome: "Bundle di Scenari per Le Avventure di Lombroso", link: "https://drive.google.com/file/d/1ZUWCLg7rYqHN3oanvd0qJlbYwC8GUHVf/view?usp=sharing", peso: 20 },
+      { nome: "Gioco di Carte sull'Open Science", link: "https://drive.google.com/file/d/11Vka_IfIriNlfbtSTuGbGXfHHAv1N4x4/view?usp=sharing", peso: 20 },
+      { nome: "Cos'è un GdR, One-scene game", link: "https://drive.google.com/file/d/1Gz_hPWnJMOXZplyc3UCT5j6tIoE-zmzf/view?usp=sharing", peso: 20 }
     ];
 
     function estraiPremio() {
@@ -77,7 +77,7 @@
 
       if (!premioSalvato) {
         // Calcola somma totale dei pesi
-        const pesoTotale = premi.reduce((somma, p) => somma + p.peso, 0);
+        const pesoTotale = 100;
         let casuale = Math.random() * pesoTotale;
         let premioEstratto;
 
