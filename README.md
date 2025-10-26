@@ -4,6 +4,8 @@
   <title>Estrazione Premio</title>
   <style>
     body { font-family: sans-serif; text-align: center; padding-top: 50px; background: #f7f7f7; }
+    <h1>🎁 Scopri il tuo premio!</h1>
+    <p>Clicca il pulsante qui sotto per estrarre il tuo premio.</p>
     h1 { color: #333; }
     a {
       display: inline-block;
