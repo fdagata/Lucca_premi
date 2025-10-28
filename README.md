@@ -64,12 +64,12 @@
   <script>
     // Elenco premi con link e probabilità (pesi)
     const premi = [
-      { nome: "Libro RPG Studies", link: "https://drive.google.com/file/d/1Cru0krkBjbK3ZnaassQQlgXG7U7lYWG9/view?usp=sharing", peso: 10 },
-      { nome: "Un Lavoro d'Ufficio GdR neuroscienze", link: "https://drive.google.com/file/d/15-6_lPFrHq65qMrMQctx-h1pT0uV6lvU/view?usp=sharing", peso: 10 },
-      { nome: "Bundle di Scenari per Le Avventure di Lombroso", link: "https://drive.google.com/file/d/1ZUWCLg7rYqHN3oanvd0qJlbYwC8GUHVf/view?usp=sharing", peso: 20 },
-      { nome: "Gioco di Carte sull'Open Science", link: "https://drive.google.com/file/d/11Vka_IfIriNlfbtSTuGbGXfHHAv1N4x4/view?usp=sharing", peso: 20 },
-      { nome: "Cos'è un GdR, One-scene game", link: "https://drive.google.com/file/d/1Gz_hPWnJMOXZplyc3UCT5j6tIoE-zmzf/view?usp=sharing", peso: 40 }
-    ];
+      { nome: "Capitan Avis - Premio super raro, fino ad esaurimento scorte. Ritira il tuo premio all'info point con presentando il pdf.", link: "https://drive.google.com/file/d/16V2DO7Au9V7fpGMY_v-gGKsMnXHhCIsV/view?usp=sharing", peso: 5 },
+      { nome: "Playa Pirata - Premio super raro, fino ad esaurimento scorte. Ritira il tuo premio all'info point con presentando il pdf.", link: "https://drive.google.com/file/d/1hITJHwMFqpJo09r2G6gD20w2zrQnJAbv/view?usp=sharing", peso: 5 },
+      { nome: "Un Lavoro d'Ufficio GdR neuroscienze - Premio raro", link: "[https://drive.google.com/file/d/1ZUWCLg7rYqHN3oanvd0qJlbYwC8GUHVf/view?usp=sharing](https://drive.google.com/file/d/15-6_lPFrHq65qMrMQctx-h1pT0uV6lvU/view?usp=sharing)", peso: 10 },
+      { nome: "Gioco di Carte sull'Open Science - Premio non comune", link: "https://drive.google.com/file/d/11Vka_IfIriNlfbtSTuGbGXfHHAv1N4x4/view?usp=sharing", peso: 30 },
+      { nome: "Cos'è un GdR, One-scene game - Premio comune", link: "https://drive.google.com/file/d/1aPhoaUZS7IYW4lsg3W7fWsllQFMwd0ai/view?usp=sharing", peso: 50 }
+    ]; 
 
     function estraiPremio() {
       let premioSalvato = localStorage.getItem("premioEstratto");
