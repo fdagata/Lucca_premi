@@ -30,7 +30,7 @@
 </head>
 <body>
   <h1 id="titolo">🎁 Scopri il tuo premio!</h1>
-  <p>Clicca il pulsante qui sotto per estrarre il tuo premio.</p>
+  <p>Clicca il pulsante qui sotto per il tuo premio.</p>
   <div id="output"></div>
   <button id="bottone" onclick="estraiPremio()">Estrai Premio</button>
   <br>
@@ -68,7 +68,7 @@
       { nome: "Playa Pirata - Premio super raro, fino ad esaurimento scorte. Ritira il tuo premio all'info point presentando il pdf.", link: "https://drive.google.com/file/d/1hITJHwMFqpJo09r2G6gD20w2zrQnJAbv/view?usp=sharing", peso: 5 },
       { nome: "Un Lavoro d'Ufficio GdR neuroscienze - Premio raro", link: "[https://drive.google.com/file/d/1ZUWCLg7rYqHN3oanvd0qJlbYwC8GUHVf/view?usp=sharing](https://drive.google.com/file/d/15-6_lPFrHq65qMrMQctx-h1pT0uV6lvU/view?usp=sharing)", peso: 10 },
       { nome: "Gioco di Carte sull'Open Science - Premio non comune", link: "https://drive.google.com/file/d/1osTOMOJTlg_acf-w2ieQ9_QE_kNKuc6v/view?usp=sharing", peso: 30 },
-      { nome: "Cos'è un GdR, One-scene game - Premio comune", link: "https://drive.google.com/file/d/1aPhoaUZS7IYW4lsg3W7fWsllQFMwd0ai/view?usp=sharing", peso: 50 }
+      { nome: "Cos'è un GdR, 15' game - Premio comune", link: "https://drive.google.com/file/d/1aPhoaUZS7IYW4lsg3W7fWsllQFMwd0ai/view?usp=sharing", peso: 50 }
     ]; 
 
     function estraiPremio() {
